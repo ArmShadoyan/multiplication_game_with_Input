@@ -37,14 +37,13 @@ answButton.addEventListener("click",() => {
 		count = math();
 		n = 5;
 		userInput.value = Number(userInput.value) + n;
-	}else if (computerInput.value <= 50 && userInput.value <= 50){
+	}else if (computerInput.value <= 50 && userInput.value <= 50 && input.value.trim() != ""){
+		console.log(input.value);
 		count = math();
 		n = 5;
 		computerInput.value = Number(computerInput.value) + n;
 	}
 	input.value = "";
-			console.log(computerInput.value);
-			console.log(userInput.value);
 			if(userInput.value >= 30  && userInput.value < 40){
 				m = 100;
 			}else if (userInput.value >= 40  && userInput.value < 50){
