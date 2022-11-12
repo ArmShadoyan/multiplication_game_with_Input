@@ -1,0 +1,110 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 30px;
+	background: rgb(157, 153, 153);
+	border-radius: 5px;
+	max-width: 700px;
+	height: 500px;
+	margin:0 auto;
+}
+
+.header {
+	display: flex;
+	padding: 20px;
+	width: 100%;
+	height: 50%;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.questionBlock {
+	width: 60%;
+	height: 100%;
+	background: rgb(224, 218, 218);
+}
+.questionBlock .nums {
+	margin-left:38%;
+	margin-top:18%;
+	display: flex;
+	font-size: 35px;
+}
+.x {
+	padding-right: 10px;
+}
+.y {
+	padding-left: 10px
+}
+
+.pointBlock {
+	width: 40%;
+	height: 100%;
+	margin-left: 10px;
+	background: rgb(224, 218, 218);
+}
+
+.pointBlock .pointBlock_inner {
+	margin-top:16%;
+	margin-left:7px;
+}
+
+.answerBlock {
+	
+	padding: 20px;
+	margin-top: 10px;
+	height: 50%;
+	background: rgb(224, 218, 218);
+	border-radius: 5px;
+}
+
+.input {
+	height: 50%;	
+	margin: 0;
+}
+#answer_input {
+	position: relative;
+	display: block;
+	margin : 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+
+.buttօns {
+	width: 200px;
+	height: 50px;
+	margin-left: 34.5%;
+}
+
+.next {
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: rgb(255, 0, 0);
+	font-size: 14px;
+	font-family: serif;
+	cursor: pointer;
+}
+.answ {
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: rgb(57, 204, 12);
+	font-size: 14px;
+	font-family: serif;
+	cursor: pointer;
+}
+.startOver {
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: rgb(255, 0, 0);
+	font-size: 14px;
+	font-family: serif;
+	cursor: pointer;
+}
